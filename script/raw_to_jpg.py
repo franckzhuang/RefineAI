@@ -54,6 +54,6 @@ def convert_raw_to_jpeg_single(raw_path: str, output_path: str) -> time :
     return time.time() - start_time  
 
 if __name__ == "__main__":
-    raw_folder = "dataset/to_convert" 
+    raw_folder = "to_convert" 
     max_workers = 8  
     convert_raw_to_jpeg(raw_folder, max_workers)
